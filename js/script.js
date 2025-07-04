@@ -17,9 +17,13 @@
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 //definizione delle  variabili
-let resultPc = Math.floor(Math.random() * 6) -1;
-let resultUtente = Math.floor(Math.random() * 6) -1;
+let resultPc = Math.floor((Math.random() * 6) +1);
+let resultUtente = Math.floor((Math.random() * 6) +1);
+
+console.log( resultPc )
+console.log( resultUtente )
 let message ;
+
 if (resultPc > resultUtente) {
   message = ` Spiaze il computer con il punteggio di ${resultPc} ha battuto il tuo misero ${resultUtente} `
 } else if (resultPc < resultUtente)  {
@@ -27,3 +31,5 @@ if (resultPc > resultUtente) {
 } else {
   message = `Manco a vincere col computer sei buono @o@`
 }
+
+console.log(message)
