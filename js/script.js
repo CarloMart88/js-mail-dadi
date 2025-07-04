@@ -12,11 +12,11 @@
 // Nota: 
 // Non è necessario provvedere alla validazione delle email
 
-const checklist = [["pizzapercolazione@gmail.com", "sonoununicorno@gmail.com", "caffeinacronica@gmail.com", "vogliadivacanza@gmail.com", "pandaabbraccione@gmail.com", "pastaeinternet@gmail.com", "dormosempre@gmail.com", "ridisempre@gmail.com", "nerdincognito@gmail.com", "felicecomeunpesce@gmail.com"]
+const checklist = ["pizzapercolazione@gmail.com", "sonoununicorno@gmail.com", "caffeinacronica@gmail.com", "vogliadivacanza@gmail.com", "pandaabbraccione@gmail.com", "pastaeinternet@gmail.com", "dormosempre@gmail.com", "ridisempre@gmail.com", "nerdincognito@gmail.com", "felicecomeunpesce@gmail.com"]
 
+const UserName = prompt('Inserisci la tua mail')
 
-
-
+for ( i=0 ; i<checklist.lenght ; i++)
 
 
 
