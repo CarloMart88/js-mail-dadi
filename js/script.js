@@ -30,7 +30,7 @@ for ( i=0 ; i<checklist.length ; i++) {
 
   } else  {
     
-    answer = `asssLa sua richiesta di accesso è stata negata la sua mail ${UserName} non è presente nella nostra lista`asss
+    answer = `La sua richiesta di accesso è stata negata la sua mail ${UserName} non è presente nella nostra lista`
     
   }
 
