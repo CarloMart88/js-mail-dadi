@@ -12,13 +12,17 @@
 // Nota: 
 // Non è necessario provvedere alla validazione delle email
 
+
+// creo l'array con indirizzi falsi 
 const checklist = ['pizzapercolazione@gmail.com' , 'sonoununicorno@gmail.com' , 'caffeinacronica@gmail.com' , 'vogliadivacanza@gmail.com' , 'pandaabbraccione@gmail.com' , 'pastaeinternet@gmail.com' , 'dormosempre@gmail.com' , 'ridisempre@gmail.com' , 'nerdincognito@gmail.com' , 'felicecomeunpesce@gmail.com']
+//definizione di variabili 
 
 const UserName = prompt('Inserisci la tua mail')
+// creo la variabile answer in modo da visualizzare quella anche fuori dall'if 
 let answer ;
-
+// con Array va il ciclo for attivo il contatore 
 for ( i=0 ; i<checklist.length ; i++) {
-
+// ciclo if con break per fermare il ciclo nel momento in cui trova la mail corretta 
   if(UserName === checklist[i])  {
     
     answer = 'Benvenuto a bordo Signore '
@@ -32,7 +36,7 @@ for ( i=0 ; i<checklist.length ; i++) {
 
 
 }
-
+// mostro il risultato 
 console.log(answer)
 
 
