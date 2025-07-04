@@ -22,4 +22,8 @@ let resultUtente = Math.floor(Math.random() * 6) -1;
 let message ;
 if (resultPc > resultUtente) {
   message = ` Spiaze il computer con il punteggio di ${resultPc} ha battuto il tuo misero ${resultUtente} `
+} else if (resultPc < resultUtente)  {
+  message = ` Congratulazioni!Il tuo incredibile  ${resultUtente} ha battuto il misero ${resultPc} del computer!`
+} else {
+  message = `Manco a vincere col computer sei buono @o@`
 }
