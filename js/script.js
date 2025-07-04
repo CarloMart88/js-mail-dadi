@@ -12,16 +12,29 @@
 // Nota: 
 // Non è necessario provvedere alla validazione delle email
 
-const checklist = ["pizzapercolazione@gmail.com", "sonoununicorno@gmail.com", "caffeinacronica@gmail.com", "vogliadivacanza@gmail.com", "pandaabbraccione@gmail.com", "pastaeinternet@gmail.com", "dormosempre@gmail.com", "ridisempre@gmail.com", "nerdincognito@gmail.com", "felicecomeunpesce@gmail.com"]
+const checklist = ['pizzapercolazione@gmail.com' , 'sonoununicorno@gmail.com' , 'caffeinacronica@gmail.com' , 'vogliadivacanza@gmail.com' , 'pandaabbraccione@gmail.com' , 'pastaeinternet@gmail.com' , 'dormosempre@gmail.com' , 'ridisempre@gmail.com' , 'nerdincognito@gmail.com' , 'felicecomeunpesce@gmail.com']
 
 const UserName = prompt('Inserisci la tua mail')
+let answer ;
 
 for ( i=0 ; i<checklist.length ; i++) {
 
-  console.log(checklist[i])
+  if(UserName === checklist[i])  {
+    
+    answer = 'Benvenuto a bordo Signore '
+    {break}
 
-  
+  } else  {
+    
+    answer = `asssLa sua richiesta di accesso è stata negata la sua mail ${UserName} non è presente nella nostra lista`asss
+    
+  }
+
+
 }
+
+console.log(answer)
+
 
 
 
