@@ -21,5 +21,5 @@ let resultPc = Math.floor(Math.random() * 6) -1;
 let resultUtente = Math.floor(Math.random() * 6) -1;
 let message ;
 if (resultPc > resultUtente) {
-  message
+  message = ` Spiaze il computer con il punteggio di ${resultPc} ha battuto il tuo misero ${resultUtente} `
 }
