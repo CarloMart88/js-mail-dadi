@@ -16,14 +16,16 @@
 // Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
+
 //definizione delle  variabili
 let resultPc = Math.floor((Math.random() * 6) +1);
 let resultUtente = Math.floor((Math.random() * 6) +1);
-
+// controllo i risultati se effettivamente rispecchiano il range descritto per avere il 6 massimo e 1 minimo 
 console.log( resultPc )
 console.log( resultUtente )
+// creo la variabile message in modo da visualizzare quella anche fuori dall'if 
 let message ;
-
+// creo if con tre situazioni 
 if (resultPc > resultUtente) {
   message = ` Spiaze il computer con il punteggio di ${resultPc} ha battuto il tuo misero ${resultUtente} `
 } else if (resultPc < resultUtente)  {
@@ -31,5 +33,5 @@ if (resultPc > resultUtente) {
 } else {
   message = `Manco a vincere col computer sei buono @o@`
 }
-
+// mostro il risultato 
 console.log(message)
