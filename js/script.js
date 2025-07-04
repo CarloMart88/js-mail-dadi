@@ -16,7 +16,12 @@ const checklist = ["pizzapercolazione@gmail.com", "sonoununicorno@gmail.com", "c
 
 const UserName = prompt('Inserisci la tua mail')
 
-for ( i=0 ; i<checklist.lenght ; i++)
+for ( i=0 ; i<checklist.length ; i++) {
+
+  console.log(checklist[i])
+
+  
+}
 
 
 
