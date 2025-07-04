@@ -12,6 +12,34 @@
 // Nota: 
 // Non è necessario provvedere alla validazione delle email
 
+const checklist = [["pizzapercolazione@gmail.com", "sonoununicorno@gmail.com", "caffeinacronica@gmail.com", "vogliadivacanza@gmail.com", "pandaabbraccione@gmail.com", "pastaeinternet@gmail.com", "dormosempre@gmail.com", "ridisempre@gmail.com", "nerdincognito@gmail.com", "felicecomeunpesce@gmail.com"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Gioco dei dadi
 // Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
